@@ -1,0 +1,10 @@
+console.log("Katalog skyptu: " + __dirname)
+console.log("Plik skyptu: " + __filename)
+console.log("Argumenty: " +process.argv)
+console.log("Zmienna środowiskowa DriverData: " + process.env.DriverData)
+console.log("Funkcja zwracająca katalog skryptu: " + process.cwd())
+console.log("Czas od uruchomienia: " + process.uptime())
+setTimeout(() => console.log('time out'), 1000)
+console.log("Exit")
+//zakończenie procesu skryptu
+process.exit()
